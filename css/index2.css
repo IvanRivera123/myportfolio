@@ -7,16 +7,18 @@ body {
     margin-top: 50px;
     margin: auto;
     padding: auto;
+    
 }
 
 .header {
-    background-color: #ffffff;
+    background-color: rgba(224, 224, 224, 0.637);
     padding-top: 60px;
     padding-bottom: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 0px;
+    box-shadow: 1px 1px 1px rgb(165, 165, 165);
     
 }
 
@@ -70,6 +72,19 @@ li:hover::before {
 img {
     width: 350px;
     height: 350px;
+    
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
 }
 
 #info {
@@ -127,13 +142,28 @@ img {
 }
 
 .squircle {
-    position: absolute;
-    top: 270px;
-    left: 640px;
-    transform: translate(-50%, -50%);
-    width: 50.5%; 
-    height: 40%; 
-    border-radius: 20px; 
-    background-color: rgba(255, 255, 255, 0.685); 
-    box-shadow: 2px 2px 2px rgb(83, 83, 83);
+    width: 720px; 
+    height: 370px; 
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: rgb(107, 106, 106); 
+    margin: 10px;
+    
+}
+
+#column {
+    display: flex;
+    margin-left: 200px;
+
+}
+
+.check {
+    width: 40px;
+    height: 40px;
+    display: inline;
+}
+
+.exp {
+    display: flex;
 }
