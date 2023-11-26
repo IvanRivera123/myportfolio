@@ -10,6 +10,11 @@ body {
     
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 10rem;
+}
+
 .header {
     background-color: rgba(224, 224, 224, 0.637);
     padding-top: 60px;
@@ -32,6 +37,13 @@ body {
 ul {
     display: inline;
     margin-right: 250px;
+
+}
+
+a {
+    color: #0060B6;
+    text-decoration: none;
+    color: inherit;
 }
 
 li {
@@ -132,7 +144,7 @@ a {
 
 .tittle 
 {
-    font-size: 30px;
+    font-size: 50px;
     
 }
 
@@ -148,7 +160,7 @@ a {
     border-width: 1px;
     border-radius: 20px;
     border-color: rgb(107, 106, 106); 
-    margin: 10px;
+    margin: 9px;
     
 }
 
@@ -161,9 +173,19 @@ a {
 .check {
     width: 40px;
     height: 40px;
-    display: inline;
+    padding-right: 10px;
+    
 }
 
 .exp {
     display: flex;
+    align-items: center;
+    padding-right: 80px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.test {
+    display: flex;
+    
 }
